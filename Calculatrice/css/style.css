@@ -1,0 +1,80 @@
+/* corps */
+body{
+    background-color: rgb(214, 99, 99);
+}
+
+.black{
+    height: 500px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50px;
+    border: blueviolet solid 4px;
+    position: relative;
+    margin-left: 40%;
+    margin-top: 10%;
+    box-shadow: black 0px -5px 50px 10px ;
+    
+}
+
+
+.styleH1{
+    position: absolute;
+    margin-left: 47%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.ecran{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    margin-top: 5%;
+    margin-left: 12%;
+    border: blueviolet solid;
+    border-radius: 30px;
+    background-color: rgb(141, 196, 136);
+}
+.divBtn{
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.divOp{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 350px;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.divEgal{
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 350px;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 105%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+
